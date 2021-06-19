@@ -3,9 +3,9 @@
 #include "vtr_time.h"
 #include "vtr_version.h"
 
-int main(int argc, char** argv) 
+int main(int argc, char** argv)
 {
-  vtr::ScopedFinishTimer t("Odin II");
+    vtr::ScopedFinishTimer t("Odin II");
 
     printf(
         "=======================================================================\n"
@@ -30,5 +30,5 @@ int main(int argc, char** argv)
 
     netlist_t* odin_netlist = start_odin_ii(argc, argv);
     terminate_odin_ii(odin_netlist);
-      return 0;
+    return 0;
 }
