@@ -1,3 +1,3 @@
-   int 2; 
- string "hello";
-             int 9;
+int 2;
+string "hello";
+int 9;
