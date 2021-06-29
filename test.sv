@@ -3,3 +3,4 @@
   
   
 logic clk2;
+   logic newtest;
